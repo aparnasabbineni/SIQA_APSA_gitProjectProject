@@ -9,3 +9,5 @@ runtimes:
   assets:
   - name: APSAClientApp
     type: DAF
+  - name: APSAClientAppInternal
+    type: DAF
