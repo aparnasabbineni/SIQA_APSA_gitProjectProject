@@ -5,3 +5,7 @@ runtimes:
   assets:
   - name: APSA_Test
     type: DAF
+- runtimeAlias: Cloud Runtime
+  assets:
+  - name: APSAClientApp
+    type: DAF
