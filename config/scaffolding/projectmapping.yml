@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: SIQA_APSA_gitProjectProject
+runtimes:
+- runtimeAlias: apsacrtpv
+  assets:
+  - name: APSA_Test
+    type: DAF
