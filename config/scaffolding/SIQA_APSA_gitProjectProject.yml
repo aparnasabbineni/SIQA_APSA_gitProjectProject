@@ -16,7 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1101
-- serviceName: project.siqa_apsa_gitproject.integrations:debugLog2
+- serviceName: project.siqa_apsa_gitproject.integrations:debugLog
   packages:
   - name: SIQA_APSA_gitProjectProject
     version: "1.0"
@@ -24,6 +24,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1101
+- serviceName: project.siqa_apsa_gitproject.integrations:debugLog2
+  packages:
+  - name: SIQA_APSA_gitProjectProject
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
