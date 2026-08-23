@@ -501,7 +501,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.siqa_apsa_gitproject.integrations:ERT_DAFCallSingleFLow">
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.siqa_apsa_gitproject.integrations:ERT_DAFCallSingleFLow" DISABLED="true">
   <COMMENT></COMMENT>
   <STEP_LEVEL_PROPERTIES>
 
