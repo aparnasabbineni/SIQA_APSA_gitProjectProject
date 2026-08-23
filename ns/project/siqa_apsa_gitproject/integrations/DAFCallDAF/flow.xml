@@ -11,9 +11,9 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
   </record>
 </Values>
@@ -110,9 +110,9 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
+    <value name="agentGroup">default</value>
     <value name="agentName">CloudDesigntime</value>
     <value name="displayName">Cloud Designtime</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">cloud</value>
     <number name="ttl" type="Long">1</number>
   </record>
@@ -210,9 +210,9 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
+    <value name="agentGroup">default</value>
     <value name="agentName">APSAAUg18pb</value>
     <value name="displayName">APSAAUg18pb</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">onprem</value>
   </record>
 </Values>
@@ -309,9 +309,9 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
+    <value name="agentGroup">default</value>
     <value name="agentName">apsacrtpb</value>
     <value name="displayName">apsacrtpb</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">cloud</value>
   </record>
 </Values>
@@ -408,9 +408,9 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
+    <value name="agentGroup">default</value>
     <value name="agentName">CloudRuntime</value>
     <value name="displayName">Cloud Runtime</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">cloud</value>
   </record>
 </Values>
@@ -507,10 +507,10 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <value name="agentName">APSAVRT</value>
-    <value name="displayName">APSAVRT</value>
     <value name="agentGroup">default</value>
-    <value name="executionPlaneType">onprem</value>
+    <value name="agentName">CloudDesigntime</value>
+    <value name="displayName">Cloud Designtime</value>
+    <value name="executionPlaneType">cloud</value>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>
@@ -584,7 +584,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">APSAVRT</value>
+  <value name="xml">CloudDesigntime</value>
 </Values>
 </DATA>
 </MAPSET>
