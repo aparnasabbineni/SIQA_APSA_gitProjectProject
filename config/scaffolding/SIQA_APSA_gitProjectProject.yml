@@ -8,6 +8,22 @@ packages:
   gitUsername: aparnasabbineni
   gitBranch: main
 services:
+- serviceName: project.siqa_apsa_gitproject.integrations:DAFCallDAF
+  packages:
+  - name: SIQA_APSA_gitProjectProject
+    version: "1.0"
+- serviceName: project.siqa_apsa_gitproject.integrations:ERT_DAFCallSingleFLow
+  packages:
+  - name: SIQA_APSA_gitProjectProject
+    version: "1.0"
+- serviceName: project.siqa_apsa_gitproject.integrations:testMessage
+  packages:
+  - name: SIQA_APSA_gitProjectProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1101
 - serviceName: project.siqa_apsa_gitproject.integrations:addIntsDAF
   packages:
   - name: SIQA_APSA_gitProjectProject
@@ -20,10 +36,6 @@ services:
   packages:
   - name: SIQA_APSA_gitProjectProject
     version: "1.0"
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1101
 - serviceName: project.siqa_apsa_gitproject.integrations:debugLog2
   packages:
   - name: SIQA_APSA_gitProjectProject
